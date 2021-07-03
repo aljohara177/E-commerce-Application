@@ -22,7 +22,7 @@ import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
 
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping("/api/user") 
 public class UserController {
 
 	private static final Logger log = LoggerFactory.getLogger(UserController.class);
